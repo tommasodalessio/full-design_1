@@ -6,6 +6,5 @@ let's see
 
 good
 
-thanks to for 
-Andras Stefuca
-the first foto
+thanks to undraw for the svg file:
+https://undraw.co/

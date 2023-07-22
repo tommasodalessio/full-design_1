@@ -8,7 +8,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: stretch;
 }
 
 header {
@@ -18,7 +17,7 @@ header {
     align-items: center;
     color: #F9FAF8;
     font-size: 24px;
-    padding: 16px 10% 10% 10%;
+    padding: 0 10% 0 10%;
 }
 
 ul {
@@ -30,14 +29,122 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .body {
+    margin-top: 0px;
+    padding-top: 0px;
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.top_body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 10% 0 10%;
+    background-color: #1F2937;
+}
+
+.sx{
+    flex-wrap: wrap;
+    text-align: start;
+}
+.hero_txt{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.txt{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-style: solid;
+}
+
+img {
+    width: 500px;
+    height: 200;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.title_body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 2.5%;
+}
+
+.boxes_body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+.title_body_txt {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+img {
+    width: 180px;
+    height: 180px;
+}
+
+.svg{
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.quote_body{
+    background-color: #E5E7EB;
+    padding: 5% 10% 5% 10%;
+}
+
+.cit {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.aut {
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
+}
+
+.sign_body {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5% 10% 2.5% 10%;
+    margin: 10%;
+}
+
+.sig_txt{
+    font-weight: bold;
+}
+
+button.down {
+    border-color: #E5E7EB;
 }
 
 footer {

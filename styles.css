@@ -1,10 +1,7 @@
 /*  styles css */
 
 body {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -47,6 +44,7 @@ a {
     align-items: center;
     padding: 0 10% 0 10%;
     background-color: #1F2937;
+    gap: 100px;
 }
 
 .sx{
@@ -136,7 +134,7 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 2.5% 10% 2.5% 10%;
-    margin: 10%;
+    margin: 5% 10% 5% 10%;
 }
 
 .sig_txt{
